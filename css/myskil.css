@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 29, 29);
+    
+}
+/* ---------------------- HEAD NAVBAR --------------------------- */
+.head{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: rgb(19, 38, 50); */
+}
+.Logo span{
+    font-family: 'Poppins';
+    color: orange;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.head nav{
+    justify-content: space-between;
+    display: flex; 
+    padding: 20px 5%;
+    align-items: center;
+    background-color: black;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul li a{
+    padding: 10px 25px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';  
+    /* background-color: aqua; */
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+nav ul li a.active{
+    color: orange;
+}
+nav ul li a:hover{
+    color: rgb(237, 237, 237);
+    background-color: rgb(222, 149, 13);
+    border-radius: 3rem;
+    transition: .3s;
+}
+
+/* --------------------------------------------------- */
+
+.photo{
+    padding: 10px 10%;
+    background-image: url(../img/bg9.png);
+    background-size: cover;
+    width: 100%;
+    /* background-color: rgb(231, 231, 231); */
+    height: 100vh;
+    margin-bottom: 3%; 
+}
+.photo h1{
+    margin-top: 15%;
+}
+.photo ul li{
+    display: inline-block;
+}
+
+.photo ul li a{
+    color: orange;
+    font-size: 40px;
+    /* background-color: beige; */
+    padding: 10px;
+    /* border-radius: 3rem; */
+}
+.photo ul li a:hover{
+    color: white;
+    transition: .3s;
+}
+span{
+    color: rgb(248, 246, 246);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    margin-left: 40%;
+}
+.vid{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: rgb(183, 181, 181);
+    border-radius: 2rem;
+    padding: 25px 5%;
+    margin-bottom: 50px;
+}
